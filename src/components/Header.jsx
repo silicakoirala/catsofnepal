@@ -41,8 +41,8 @@ const Header = () => {
       </div>
       {isMenuOpen && (
         <div className="md:hidden bg-gray-800">
-          <nav className="container mx-auto py-4">
-            <ul className="flex flex-col items-left">
+          <nav className="container mx-auto py-8">
+            <ul className="flex flex-col items-left gap-4">
               <li>
                 <Link to="/adoption" className="text-white" onClick={() => setIsMenuOpen(false)}>Adoption</Link>
               </li>
